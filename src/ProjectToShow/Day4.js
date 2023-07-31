@@ -5,14 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import FixInitialValue from "../Component_Day17/FixInitialValue";
 import LikeDislikeComponent from "../Component_Day17/LikeDislikeComponent";
 import PassingThroughProps from "../Component_Day17/PassingThroughProps";
-import Thumbs from "../Component_Day17/Thumbs";""
+import Thumbs from "../Component_Day17/Thumbs";
 
 export default function Day1() {
     let data = [
         { title: "Task-1", text: "First Component", urlImg: "Image/task1.png", urlTask: "FixInitialValue" },
         { title: "Task-2", text: "Profile", urlImg: "Image/task2.png", urlTask: "LikeDislikeComponent" },
         { title: "Task-3", text: "Practice of PassingThroughProps", urlImg: "Image/task3.png", urlTask: "PassingThroughProps" },
-        { title: "Task-4", text: "Thumbs PassingThroughProps", urlImg: "Image/task4.png", urlTask: "Thumbs" },
+        { title: "Task-5", text: "Thumbs PassingThroughProps", urlImg: "Image/task4.png", urlTask: "Thumbs" },
 
     ];
     return (
