@@ -31,6 +31,9 @@ export default function NavLayout() {
                                 <li className="nav-item">
                                     <Link className="nav-link active fs-4" aria-current="page" to="/day4">Day4</Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link active fs-4" aria-current="page" to="/day5">Day5</Link>
+                                </li>
                                 
                                 {/* <li className="nav-item dropdown me-2">
                                     <Link className="nav-link active dropdown-toggle fs-4" to="/day1" role="button" data-bs-toggle="dropdown" aria-expanded="false">

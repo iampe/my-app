@@ -29,7 +29,7 @@ export default function Day1() {
                 <Route path="FixInitialValue" element={<FixInitialValue />} />
                 <Route path="LikeDislikeComponent" element={<LikeDislikeComponent />} />
                 <Route path="PassingThroughProps" element={<PassingThroughProps url={100} />} /> {/*We can also pass like this >>>>  url="Image/image2.png" */}
-                <Route path="Thumbs" element={<Thumbs />} />
+                <Route path="Thumbs" element={<Thumbs/>} />
             </Routes>
 
         </>

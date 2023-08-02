@@ -15,13 +15,7 @@ export default function Todoform({
     e.preventDefault();
     //let temp = todoItems;
     //temp.push(todoItem);
-    setTodoItems([
-      ...todoItems,
-      {
-        id: Math.floor(Math.random() * 1000),
-        name: todoItem,
-      },
-    ]);
+    setTodoItems([...todoItems,{ id: Math.floor(Math.random() * 1000),name: todoItem,},]);
     setTodoItem("");
     console.log(todoItems);
   };
@@ -29,15 +23,8 @@ export default function Todoform({
     <div>
       <div className="container mt-3">
         <form className="container-fluid d-flex" onSubmit={handleSubmit}>
-          <input
-            value={todoItem}
-            className="form-control"
-            type="text"
-            onChange={handleChange}
-          />
-          <button className="btn btn-primary ms-2" type="submit">
-            Add
-          </button>
+          <input value={todoItem} className="form-control" type="text" onChange={handleChange}/>
+          <button className="btn btn-primary ms-2" type="submit">Add</button>
         </form>
       </div>
     </div>

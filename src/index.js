@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import NavHandel from './ProjectToShow/NavHandel';
-import Bottom from './ProjectToShow/Bottom';
-
-
+// import NavHandel from "./ProjectToShow/NavHandel"
+// import Bottom from "./ProjectToShow/Bottom"
+// import Viewtodo from './Component_Day18/MyToDoVersion5/Viewtodo';
+import Viewtodo from './Component_Day18/Test/Viewtodo';
 
 
 
@@ -15,8 +15,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <NavHandel />
-    <Bottom />
+    {/* <NavHandel/>
+    <Bottom />  */}
+    < Viewtodo/>
+   
 
   </React.StrictMode>
 );

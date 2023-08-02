@@ -22,11 +22,11 @@ export default function Bottom() {
         {/* <!-- Right --> */}
         <FontAwesomeIcon icon="fa-light fa-jug-bottle"  />
         <div className="">
-          <a href="https://www.facebook.com/" className="me-4 text-reset"><FontAwesomeIcon icon={faFacebook} size="2xl"/></a>
-          <a href="https://twitter.com/srh_abhay" className="me-4 text-reset"><FontAwesomeIcon icon={faTwitter} size="2xl" /></a>
-          <a href="https://www.instagram.com/" className="me-4 text-reset"><FontAwesomeIcon icon={faInstagram} size="2xl"/></a>
-          <a href="hhttps://www.linkedin.com/in/abhay-kumar-pandey-1124ba205/" className="me-4 text-reset"><FontAwesomeIcon icon={faLinkedin} size="2xl"/></a>
-          <a href="https://github.com/050abhay" className="me-4 text-reset"><FontAwesomeIcon icon={faGithub} size="2xl"/></a>
+          <a href="https://www.facebook.com/" className="me-4 text-reset"><FontAwesomeIcon icon={faFacebook} size="2xl" style={{color: "rgba(30, 39, 76, 0.821)"}}/></a>
+          <a href="https://twitter.com/srh_abhay" className="me-4 text-reset"><FontAwesomeIcon icon={faTwitter} size="2xl"   style={{color: "rgba(30, 39, 76, 0.821)"}} /></a>
+          <a href="https://www.instagram.com/" className="me-4 text-reset"><FontAwesomeIcon icon={faInstagram} size="2xl"  style={{color: "rgba(30, 39, 76, 0.821)"}} /></a>
+          <a href="hhttps://www.linkedin.com/in/abhay-kumar-pandey-1124ba205/" className="me-4 text-reset"><FontAwesomeIcon icon={faLinkedin} size="2xl"  style={{color: "rgba(30, 39, 76, 0.821)"}} /></a>
+          <a href="https://github.com/050abhay" className="me-4 text-reset"><FontAwesomeIcon icon={faGithub} size="2xl"  style={{color: "rgba(30, 39, 76, 0.821)"}} /></a>
         </div>
         {/* <!-- Right --> */}
       </section>
@@ -35,7 +35,7 @@ export default function Bottom() {
 
       {/* <!-- Copyright --> */}
       <div className="text-center mt-5">
-        <a  className="text-muted" href="./layout/Devloper.html" target="_blank">© 2023 Copyright:@</a>
+        <a  className="text-muted" href="/" >© 2023 Copyright:@</a>
 
       </div>
       {/* <!-- Copyright --> */}

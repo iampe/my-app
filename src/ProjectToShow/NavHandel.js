@@ -6,6 +6,7 @@ import Day1 from "./Day1";
 import Day2 from "./Day2";
 import Day3 from "./Day3";
 import Day4 from "./Day4";
+import Day5 from "./Day5";
 
 export default function NavHandel() {
   return (
@@ -18,6 +19,7 @@ export default function NavHandel() {
           <Route path="day2//*" element={<Day2/>}/>
           <Route path="day3//*" element={<Day3/>}/>
           <Route path="day4//*" element={<Day4/>}/>
+          <Route path="day5//*" element={<Day5/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
